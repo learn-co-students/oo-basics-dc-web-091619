@@ -3,7 +3,8 @@ class Shoe
         @brand = brand
     end
 
-    # attr_accessor :color, :size, :material, :condition,
+    attr_accessor :size, :material, :condition, :color
+
     def brand
         @brand
     end
@@ -16,29 +17,29 @@ class Shoe
         @color
     end
 
-    def size= (size)
-        @size=size
-    end
+    # def size= (size)
+    #     @size=size
+    # end
 
-    def size
-        @size
-    end
+    # def size
+    #     @size
+    # end
 
-    def material= (material)
-        @material=material
-    end
+    # def material= (material)
+    #     @material=material
+    # end
 
-    def material
-        @material
-    end
+    # def material
+    #     @material
+    # end
 
-    def condition= (condition)
-        @condition= condition
-    end
+    # def condition= (condition)
+    #     @condition= condition
+    # end
 
-    def condition
-        @condition
-    end
+    # def condition
+    #     @condition
+    # end
 
     def cobble
         self.condition = "new"
